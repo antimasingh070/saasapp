@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   resources :user_projects
   resources :artifacts
@@ -24,4 +25,7 @@ Rails.application.routes.draw do
   }
   
   
+=======
+  root 'home#index'
+>>>>>>> fd4ff0debe0a4e6620a45c7847b496c095b699c5
 end

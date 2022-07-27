@@ -5,11 +5,18 @@ ruby "3.1.2"
 gem 'tzinfo-data'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
+<<<<<<< HEAD
 gem 'devise'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+=======
+
+# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem "sprockets-rails"
+
+>>>>>>> fd4ff0debe0a4e6620a45c7847b496c095b699c5
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -65,6 +72,13 @@ group :development do
   # gem "spring"
 end
 
+<<<<<<< HEAD
+=======
+group :production do
+  gem 'rails_12factor'
+  end
+  
+>>>>>>> fd4ff0debe0a4e6620a45c7847b496c095b699c5
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
